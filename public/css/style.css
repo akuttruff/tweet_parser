@@ -1,0 +1,83 @@
+@media (max-width: 600px) {
+	.panel {
+		margin: 20px 20px 20px 20px;
+		padding: 50px 50px 50px 50px;
+	}
+}
+
+
+h1, h2, .input-lg, .small {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 300
+}
+
+body {
+	background-color: #d2d2d2
+}
+
+.container {
+	margin: 0;
+	width: auto
+}
+
+.fixed {
+  position: fixed;
+  width: 40%;
+}
+
+.scrollit {
+  float: right;
+  width: 61%;
+}
+
+.panel-default {
+	margin: 25px;
+}
+
+.panel {
+	/*width: 600px;*/
+	height: auto;
+	margin: 25px;
+	padding: 50px 50px 50px 50px;
+	border-radius: 6px;
+	border-color: #696969;
+	border-width: 5px
+}
+
+.panel-title {
+	font-size: 20px;
+	font-weight: 500px
+}
+
+.page-header {
+	margin-left: 20px;
+	text-align: center;
+	font-weight: 300
+}
+
+.panel-heading {
+	background-color: #f5f5f5;
+	border-radius: 6px;
+	margin-top: 50px;
+	margin: 0px;
+}
+
+.title {
+	text-align: center
+}
+
+.subtitle {
+	font-size: 20px;
+	font-weight: 300;
+	text-align: center;
+}
+
+.header {
+	margin-bottom: 20px;
+}
+
+.btn-default {
+	font-size: 24px;
+	font-weight: 300;
+	background-color: #eee
+}

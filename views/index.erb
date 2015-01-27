@@ -1,0 +1,67 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Twitter Timeline Content Parser</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="col-6-md fixed"> 
+      <div class="panel panel-default">
+
+        <form action="/results" method="post">
+          <div class="header">
+            <h1 class="title">Twitter Timeline Content Parser</h1>
+            <h3 class="subtitle">Search the 200 most recent tweets by keyword, @mention, or #hashtag</h3>
+          </div>
+          <div class="form-group">
+            <div class="panel-heading">
+              <h3 class="panel-title">Enter a list of up to 300 handles:</h3>
+            </div>
+            <div class="panel-body">
+              <input class="form-control input-lg" input type="text" name="identities" placeholder="@ Twitter handles, separated by commas">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="panel-heading">
+              <h3 class="panel-title">Enter a list of topics:</h3>
+            </div>
+            <div class="panel-body">
+              <input class="form-control input-lg" input type="text" name="topics" placeholder="Search terms, separated by commas">
+            </div>
+          </div>
+
+          <div class="span7 text-center">
+            <button type="submit" class="btn btn-default">Submit</button>
+          </div>
+
+        </form>
+      </div>
+    </div>
+    <div class="col-md-6 scrollit">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title" >0 mentions of: </h3>
+      </div>
+
+      <div class="panel-body">
+        <div class="panel-body">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+</body>
+</html>
